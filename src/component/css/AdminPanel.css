@@ -1,0 +1,100 @@
+.admin-panel {
+  display: flex;
+  /* height: 808px; */
+}
+
+.sidebar {
+  width: 254px;
+  background-color: #1E293B;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  transition: width 0.3s;
+  overflow: hidden;
+  gap: 30px;
+}
+
+.sidebar.collapsed {
+  width: 60px;
+}
+
+.toggle-btn {
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    color: black;
+    border-radius: 17px;
+    position: absolute;
+    left: 240px;
+    top: 23px;
+    border: none;
+}
+
+.menu {
+  flex-grow: 1;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 30px;
+  text-decoration: none;
+  color: white;
+  width: 180px;
+  margin: 0px auto;
+}
+
+.menu-item-icon {
+  margin-right: 10px;
+  width: 22px;
+  height: 22px;
+}
+
+.menu-item-text {
+  white-space: nowrap;
+  font-size: 14px;
+}
+
+.menu-item.active {
+  background-color: #ffffff;
+  border-radius: 26px;
+  width: 180px;
+  margin: 0px auto;
+}
+
+.menu-item.active .menu-item-icon{
+  color: #E65F2B;
+}
+.menu-item.active .menu-item-text{
+  color: #E65F2B;
+}
+
+.menu-item.logout-btn {
+  background-color: #f44336;
+  color: white;
+  margin: 10px 20px;
+  border-radius: 26px;
+  width: 180px;
+
+}
+
+.menu-item.logout-btn:hover {
+  background-color: #d32f2f;
+}
+
+.menu-item-logout{
+  margin: 0px auto;
+}
+.logo{
+  width: 93px;
+  height: 93px;
+  margin-top: 15px;
+  margin-left: 76px;
+}
+
+.content {
+  flex-grow: 1;
+  /* padding: 20px; */
+  background-color: #FFF9F4;
+  overflow-y: auto;
+}

@@ -1,0 +1,112 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .dashboard {
+    padding: 20px 36px;
+    width: 1100px;
+  }
+  
+  .dashboard-header {
+    margin-bottom: 20px;
+  }
+  
+  .divider {
+    margin-bottom: 20px;
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+  }
+  
+  .dashboard-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-nav {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .dashboard-nav button {
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .dashboard-nav .active {
+    background-color: #F47500;
+    color: white;
+  }
+  
+  .download-button {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    color: #1A932E;
+    border: 1px solid #1A932E;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    gap: 10px;
+  }
+  
+  .stats-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .box {
+    display: flex;
+    align-items: center;
+    width: 329px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+
+  }
+  
+  .image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6991C7;
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+  }
+  
+  .image img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .box-content {
+    margin-left: 20px;
+  }
+  
+  .box-content h6 {
+    font-size: 12px;
+    font-weight: 500;
+    color: #888;
+  }
+  
+  .box-content h5 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+   
